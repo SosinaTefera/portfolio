@@ -1,0 +1,84 @@
+/* Header styles */
+header {
+    background-color: orange;
+    color: darkblue;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;   
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* About section styles */
+.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #007bff;
+    font-style: italic;
+}
+
+/* Contact information styles */
+.contact-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    blockquote {
+        padding: 10px;
+    }
+}
