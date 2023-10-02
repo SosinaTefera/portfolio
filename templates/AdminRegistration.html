@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AmdinRegistration</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../static/css/AdminRegstration.css">
+    <link rel="shortcut icon" href="../static/css/images/icons/favicon1.png">
+    <header>
+      <nav>
+          <ul>
+            <li><a href="/easy">Home</a></li>
+            <li><a href="/vehicles">Vehicles</a></li>
+            <li><a href="/location">Locations</a></li>
+            <li><a href="/AdminLogin">Admin login</a></li>
+            <li><a href="/VehicelRegistration">Vehicle registration</>            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+  </header>
+</head>
+<body>
+    <h1>Admin Registration</h1>
+    <!-- Flash messages will be displayed here -->
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class=flashes>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+  
+    <form class="register100-form">
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="pass">Password:</label><br>
+    <input type="password" id="pass" name="pass"><br>
+    <label for="confirm-pass">Confirm Password:</label><br>
+    <input type="password" id="confirm-pass" name="confirm-pass"><br><br>
+    <input type="submit" value="Register">
+</form>
+ <script src="../static/js/AmdinRegistration.js"></script>
+
+</body>
+</html>
