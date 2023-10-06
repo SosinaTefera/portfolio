@@ -1,4 +1,4 @@
 #Author 
 
-- Sosina Tefrea <diyanatefera123@gmail.com>
+- Sosina Tefera <diyanatefera123@gmail.com>
 
